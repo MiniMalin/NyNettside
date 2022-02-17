@@ -1,16 +1,25 @@
 .header {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
-    overflow: hidden;
+    width: 200px;
+    background-color: #f1f1f1;
 }
-
-.header li {
-    float: left;
-  }
 
 .header li a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    color: rgb(19, 18, 18);
+    padding: 20px 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.header li a:hover {
+    background-color: rgb(53, 52, 52);
+    color: blueviolet;
+  }
+  
+.header .active {
+    background-color: rgb(56, 4, 99);
+    color: rgb(236, 248, 244);
   }
