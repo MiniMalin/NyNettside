@@ -2,16 +2,18 @@ body {
   background-image: url("/NyNettside/background/img_purple.png");
   background-color: rgb(160, 119, 255);
   margin: 0;
+  background-attachment: fixed;
 }
 
 h1 {
-    color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    font-size: 200px;
     text-align: center;
   }
   
 p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(19, 18, 18);
     text-align: center;
   }
