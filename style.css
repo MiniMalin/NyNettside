@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(160, 119, 255);
-  }
-  
+  background-image: url("/NyNettside/background/img_purple.png");
+  background-color: #bb3232;
+}
+
 h1 {
     color: rgb(19, 18, 18);
     text-align: center;
