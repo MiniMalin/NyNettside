@@ -1,6 +1,7 @@
 body {
   background-image: url("/NyNettside/background/img_purple.png");
   background-color: rgb(160, 119, 255);
+  margin: 0;
 }
 
 h1 {

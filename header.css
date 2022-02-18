@@ -1,10 +1,13 @@
 .header {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
+    margin: 0;
+    padding: 0;
+    width: 25%;
     background-color: #f1f1f1;
     border: 1px solid #555;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 .header li a {
