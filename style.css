@@ -17,7 +17,7 @@ h1 {
 p {
     font-family: verdana;
     font-size: 25px;
-    color: rgb(19, 18, 18);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -25,12 +25,12 @@ p {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #ffffff;
     padding: 10px;
   }
   
 .grid-container1 > div {
-    background-color: rgba(175, 32, 32, 0.8);
+    background-color: rgb(160, 119, 255);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
