@@ -1,19 +1,18 @@
 .header {
     list-style-type: none;
-    margin: 25px;
+    margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #f1f1f1;
-    border: 3px solid rgb(56, 4, 99);
-    position: fixed;
-    height: auto; 
-    overflow: auto;
+    background-color: #333;
+    border: 3px solid rgb(56, 4, 99); 
+    overflow: hidden;
 }
 
-.header li a {
-    display: block;
+.header li a, .dropbtn {
+    display: inline-block;
     color: rgb(19, 18, 18);
-    padding: 24px 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
   }
@@ -23,6 +22,10 @@
     border-bottom: 1px solid rgb(19, 18, 18);
   }
 
+.header li a:hover, .dropdown:hover .dropbtn {
+  background-color: aqua;
+}
+
 .header li a.active {
     background-color: rgb(56, 4, 99);
     color: rgb(236, 248, 244);
@@ -31,4 +34,31 @@
 .header li a:hover:not(.active) {
     background-color: rgb(53, 52, 52);
     color: rgb(160, 119, 255);
+  }
+
+.header li.dropdown {
+    display: inline-block;
+  }
+
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.header .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.header .dropdown-content a:hover {background-color: #f1f1f1;}
+
+.header .dropdown:hover .dropdown-content {
+    display: block;
   }
